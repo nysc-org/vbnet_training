@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "vbnet_training", "vbnet_training.vbproj", "{ABF74235-F579-4C48-9746-243ABA048391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF74235-F579-4C48-9746-243ABA048391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF74235-F579-4C48-9746-243ABA048391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF74235-F579-4C48-9746-243ABA048391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF74235-F579-4C48-9746-243ABA048391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B87F79B0-B6DB-4D1C-80F8-01BED80D9419}
+	EndGlobalSection
+EndGlobal
