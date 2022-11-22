@@ -97,7 +97,87 @@ An Rvalue is a variable that can appear on the right hand side of the assignment
 it os a value of the variable that defines the right-hand side.
 Example of RValue, where the assignment is done on the right
 
+For Rvalues you can't equate a number on the left to a variable
+
 ```vb
-Dim Name as String
+Dim Name As String
 Name = "Paul"
 ```
+
+## Constants
+
+Constants are keywords that whenn used to create a variable cannot be redefined.
+
+## Arithmetic Operators
+
+(+) Add
+(-) Subtract
+(*) Multiply
+(/) Division
+
+## Operator Precedence
+
+When several operations occur in an expression, 
+each part is evaluated and resolved in a predetermined 
+order called operator precedence.
+
+### Precedence Rules
+When expressions contain operators from more than one category, 
+they are evaluated according to the following rules:
+
+The arithmetic and concatenation operators have the order of 
+precedence described in the following section, and all have greater 
+precedence than the comparison, logical, and bitwise operators.
+
+All comparison operators have equal precedence, and all have greater 
+precedence than the logical and bitwise operators, but lower 
+precedence than the arithmetic and concatenation operators.
+
+The logical and bitwise operators have the order of precedence
+described in the following section, and all have lower precedence 
+than the arithmetic, concatenation, and comparison operators.
+
+Operators with equal precedence are evaluated left to right in the 
+order in which they appear in the expression.
+
+### Precedence Order
+Operators are evaluated in the following order of precedence:
+
+### Await Operator
+`Await`
+
+### Arithmetic and Concatenation Operators
+Exponentiation (^)
+
+Unary identity and negation (+, –)
+
+Multiplication and floating-point division (*, /)
+
+Integer division (\)
+
+Modular arithmetic (Mod)
+
+Addition and subtraction (+, –)
+
+String concatenation (&)
+
+Arithmetic bit shift (<<, >>)
+
+Comparison Operators
+All comparison operators (=, <>, <, <=, >, >=, Is, IsNot, Like, TypeOf...Is)
+
+Logical and Bitwise Operators
+Negation (Not)
+
+Conjunction (And, AndAlso)
+
+Inclusive disjunction (Or, OrElse)
+
+Exclusive disjunction (Xor)
+
+### Comments
+The = operator is only the equality comparison operator, not the assignment operator.
+
+The string concatenation operator (&) is not an arithmetic operator, but in precedence it is grouped with the arithmetic operators.
+
+The Is and IsNot operators are object reference comparison operators. They do not compare the values of two objects; they check only to determine whether two object variables refer to the same object instance.
