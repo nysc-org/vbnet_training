@@ -55,3 +55,49 @@ The following are examples of the important Visual Basic Keywords
 14. String
 15. Default
 16. Let, Module, New, TypeOf, For, GoTo, Static
+
+## Data Types
+
+1. Boolean - (True/False)
+2. Byte
+3. Single
+4. Char - (Character)
+5. Double - (For Floats)
+6. Integer
+7. Long - 8bytes
+8. Object
+9. String
+10. Short
+
+## Variables
+
+Variable Initialization is done, when a variable is assigned a value.
+You CREATE a variable by using the `Dim` keyword and declaring the letter of the variable.
+A variable could also be a word.
+A variable name is a simple name used to store data in the computer memory.
+
+## LValues and RValues
+
+An LValue refers to the memory location of storing the address of a variable in computer
+memory. An Lvalue is a variable that can appear on the left or right hand side of the assignment
+Example of LValue
+
+```vb
+Dim l As Integer = 1
+```
+OR
+
+```vb
+Dim l As Integer
+l =  1
+```
+
+An RValue refers to the memory location of storing the address of a variable in computer
+An Rvalue is a variable that can appear on the right hand side of the assignment because
+it os a value of the variable that defines the right-hand side.
+Example of RValue, where the assignment is done on the right
+
+```vb
+Dim Name as String
+Name = "Paul"
+```
