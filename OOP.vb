@@ -28,22 +28,27 @@
         Box1.breadth = 3.0
 
         'This is for Box 2
-        Box2.height = 2.0
+        Box2.height = 4.0
         Box2.length = 3.0
         Box2.breadth = 3.0
         'Volume of the box 1
 
-        Console.WriteLine("Volume of our box1: {0}", VolCompute(Box1, Box2))
+        Console.WriteLine("Volume of our box1: {0}", VolCompute(Box1))
 
-        Console.WriteLine("Volume of our box2: {0}", VolCompute(Box1, Box2))
+        Console.WriteLine("Volume of our box2: {0}", VolCompute2(Box2))
     End Sub
-    Function VolCompute(ByVal Box1, ByVal Box2) As Double
+    Function VolCompute(ByVal Box1) As Double
         Dim volume As Double = 0.0
         volume = Box1.length * Box1.height * Box1.breadth
         VolCompute = volume
 
+
+    End Function
+
+    Function VolCompute2(ByVal Box2) As Double
+        Dim volume As Double = 0.0
         volume = Box2.length * Box2.height * Box2.breadth
-        VolCompute = volume
+        VolCompute2 = volume
     End Function
 
     'Module mybox
